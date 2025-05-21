@@ -6,6 +6,7 @@
 
 include { LOAD_H5AD                            } from '../subworkflows/local/load_h5ad'
 include { QUALITY_CONTROL                      } from '../subworkflows/local/quality_control'
+include { H5_EMPTYDROPS_CSV                    } from '../subworkflows/local/h5_emptydrops_csv'
 include { UNIFY                                } from '../subworkflows/local/unify'
 include { CELLTYPE_ASSIGNMENT                  } from '../subworkflows/local/celltype_assignment'
 include { ADATA_EXTEND as FINALIZE_QC_ANNDATAS } from '../modules/local/adata/extend'
